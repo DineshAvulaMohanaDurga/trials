@@ -1,0 +1,6 @@
+Process 1:process time 5, deadline 10, period 10;joined the system at time 0
+Process 2:process time 3, deadline 15, period 15;joined the system at time 0
+Process 3:process time 4, deadline 15, period 15;joined the system at time 0
+Process 1 starts execution at time 0
+Process 3 finishes execution at time 4
+Process  starts execution at time 4
