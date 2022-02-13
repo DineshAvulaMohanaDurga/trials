@@ -1,0 +1,1105 @@
+The number of processes entered is 80
+The number of processes that were successfully completed is -401
+The number of processes whose deadlines were missed is 481
+Process 0: Average waiting time is 40.940002 ms
+Process 0: Average waiting time is 42.439999 ms
+Process 0: Average waiting time is 27.879999 ms
+Process 0: Average waiting time is 30.590000 ms
+Process 0: Average waiting time is 32.099998 ms
+Process 0: Average waiting time is 37.110001 ms
+Process 0: Average waiting time is 40.619999 ms
+Process 0: Average waiting time is 42.530003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -493
+The number of processes whose deadlines were missed is 573
+Process 1: Average waiting time is 40.409996 ms
+Process 1: Average waiting time is 49.109997 ms
+Process 1: Average waiting time is 48.920002 ms
+Process 1: Average waiting time is 42.430000 ms
+Process 1: Average waiting time is 42.040001 ms
+Process 1: Average waiting time is 58.549999 ms
+Process 1: Average waiting time is 60.359997 ms
+Process 1: Average waiting time is 57.070007 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -19
+The number of processes whose deadlines were missed is 99
+Process 2: Average waiting time is 0.000000 ms
+Process 2: Average waiting time is 3.900000 ms
+Process 2: Average waiting time is 8.110000 ms
+Process 2: Average waiting time is 8.820000 ms
+Process 2: Average waiting time is 10.630000 ms
+Process 2: Average waiting time is 15.339999 ms
+Process 2: Average waiting time is 0.000000 ms
+Process 2: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -323
+The number of processes whose deadlines were missed is 403
+Process 3: Average waiting time is 30.740000 ms
+Process 3: Average waiting time is 30.439999 ms
+Process 3: Average waiting time is 32.849998 ms
+Process 3: Average waiting time is 41.859997 ms
+Process 3: Average waiting time is 26.799999 ms
+Process 3: Average waiting time is 32.209999 ms
+Process 3: Average waiting time is 32.419998 ms
+Process 3: Average waiting time is 30.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -354
+The number of processes whose deadlines were missed is 434
+Process 4: Average waiting time is 30.939999 ms
+Process 4: Average waiting time is 38.340000 ms
+Process 4: Average waiting time is 33.650002 ms
+Process 4: Average waiting time is 37.659996 ms
+Process 4: Average waiting time is 28.299999 ms
+Process 4: Average waiting time is 32.810001 ms
+Process 4: Average waiting time is 32.919998 ms
+Process 4: Average waiting time is 35.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -287
+The number of processes whose deadlines were missed is 367
+Process 5: Average waiting time is 31.740000 ms
+Process 5: Average waiting time is 31.840000 ms
+Process 5: Average waiting time is 35.549999 ms
+Process 5: Average waiting time is 23.189999 ms
+Process 5: Average waiting time is 21.799999 ms
+Process 5: Average waiting time is 23.110001 ms
+Process 5: Average waiting time is 27.019999 ms
+Process 5: Average waiting time is 31.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -304
+The number of processes whose deadlines were missed is 384
+Process 6: Average waiting time is 29.609997 ms
+Process 6: Average waiting time is 39.109997 ms
+Process 6: Average waiting time is 38.620003 ms
+Process 6: Average waiting time is 39.730000 ms
+Process 6: Average waiting time is 31.240000 ms
+Process 6: Average waiting time is 32.079998 ms
+Process 6: Average waiting time is 36.290001 ms
+Process 6: Average waiting time is 37.700001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 14
+The number of processes whose deadlines were missed is 66
+Process 7: Average waiting time is 0.000000 ms
+Process 7: Average waiting time is 2.900000 ms
+Process 7: Average waiting time is 6.710000 ms
+Process 7: Average waiting time is 9.020000 ms
+Process 7: Average waiting time is 9.230000 ms
+Process 7: Average waiting time is 9.440001 ms
+Process 7: Average waiting time is 11.950000 ms
+Process 7: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -416
+The number of processes whose deadlines were missed is 496
+Process 8: Average waiting time is 43.709999 ms
+Process 8: Average waiting time is 54.009998 ms
+Process 8: Average waiting time is 35.650002 ms
+Process 8: Average waiting time is 33.159996 ms
+Process 8: Average waiting time is 34.669998 ms
+Process 8: Average waiting time is 42.680000 ms
+Process 8: Average waiting time is 40.489998 ms
+Process 8: Average waiting time is 46.100002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -385
+The number of processes whose deadlines were missed is 465
+Process 9: Average waiting time is 31.740000 ms
+Process 9: Average waiting time is 42.639999 ms
+Process 9: Average waiting time is 46.150002 ms
+Process 9: Average waiting time is 43.159996 ms
+Process 9: Average waiting time is 47.570000 ms
+Process 9: Average waiting time is 40.680000 ms
+Process 9: Average waiting time is 28.719997 ms
+Process 9: Average waiting time is 33.530003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -460
+The number of processes whose deadlines were missed is 540
+Process 10: Average waiting time is 49.109997 ms
+Process 10: Average waiting time is 46.909996 ms
+Process 10: Average waiting time is 51.020000 ms
+Process 10: Average waiting time is 47.029999 ms
+Process 10: Average waiting time is 41.540001 ms
+Process 10: Average waiting time is 35.280003 ms
+Process 10: Average waiting time is 45.989998 ms
+Process 10: Average waiting time is 38.600002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -390
+The number of processes whose deadlines were missed is 470
+Process 11: Average waiting time is 34.139999 ms
+Process 11: Average waiting time is 34.939999 ms
+Process 11: Average waiting time is 36.349998 ms
+Process 11: Average waiting time is 37.459999 ms
+Process 11: Average waiting time is 38.369999 ms
+Process 11: Average waiting time is 43.080002 ms
+Process 11: Average waiting time is 33.119999 ms
+Process 11: Average waiting time is 36.130001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -54
+The number of processes whose deadlines were missed is 134
+Process 12: Average waiting time is 0.000000 ms
+Process 12: Average waiting time is 1.400000 ms
+Process 12: Average waiting time is 5.310000 ms
+Process 12: Average waiting time is 7.020000 ms
+Process 12: Average waiting time is 8.430000 ms
+Process 12: Average waiting time is 12.940000 ms
+Process 12: Average waiting time is 17.150000 ms
+Process 12: Average waiting time is 18.060001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -503
+The number of processes whose deadlines were missed is 583
+Process 13: Average waiting time is 42.540001 ms
+Process 13: Average waiting time is 45.340000 ms
+Process 13: Average waiting time is 56.849998 ms
+Process 13: Average waiting time is 52.059998 ms
+Process 13: Average waiting time is 65.870003 ms
+Process 13: Average waiting time is 59.180004 ms
+Process 13: Average waiting time is 44.119999 ms
+Process 13: Average waiting time is 41.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -441
+The number of processes whose deadlines were missed is 521
+Process 14: Average waiting time is 46.540001 ms
+Process 14: Average waiting time is 42.540001 ms
+Process 14: Average waiting time is 47.049999 ms
+Process 14: Average waiting time is 31.490000 ms
+Process 14: Average waiting time is 40.099998 ms
+Process 14: Average waiting time is 37.910000 ms
+Process 14: Average waiting time is 44.320000 ms
+Process 14: Average waiting time is 49.730003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -412
+The number of processes whose deadlines were missed is 492
+Process 15: Average waiting time is 41.340000 ms
+Process 15: Average waiting time is 39.939999 ms
+Process 15: Average waiting time is 45.549999 ms
+Process 15: Average waiting time is 27.590000 ms
+Process 15: Average waiting time is 34.299999 ms
+Process 15: Average waiting time is 38.410000 ms
+Process 15: Average waiting time is 37.619999 ms
+Process 15: Average waiting time is 43.130001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -455
+The number of processes whose deadlines were missed is 535
+Process 16: Average waiting time is 44.940002 ms
+Process 16: Average waiting time is 52.240002 ms
+Process 16: Average waiting time is 33.680000 ms
+Process 16: Average waiting time is 33.790001 ms
+Process 16: Average waiting time is 39.599998 ms
+Process 16: Average waiting time is 44.910000 ms
+Process 16: Average waiting time is 43.019997 ms
+Process 16: Average waiting time is 47.730000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -434
+The number of processes whose deadlines were missed is 514
+Process 17: Average waiting time is 35.939999 ms
+Process 17: Average waiting time is 40.040001 ms
+Process 17: Average waiting time is 37.950001 ms
+Process 17: Average waiting time is 35.359997 ms
+Process 17: Average waiting time is 39.570000 ms
+Process 17: Average waiting time is 44.080002 ms
+Process 17: Average waiting time is 51.889996 ms
+Process 17: Average waiting time is 51.200001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -360
+The number of processes whose deadlines were missed is 440
+Process 18: Average waiting time is 36.809998 ms
+Process 18: Average waiting time is 36.110001 ms
+Process 18: Average waiting time is 40.820000 ms
+Process 18: Average waiting time is 37.029999 ms
+Process 18: Average waiting time is 43.440002 ms
+Process 18: Average waiting time is 45.449997 ms
+Process 18: Average waiting time is 32.660000 ms
+Process 18: Average waiting time is 35.299999 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -59
+The number of processes whose deadlines were missed is 139
+Process 19: Average waiting time is 0.000000 ms
+Process 19: Average waiting time is 1.800000 ms
+Process 19: Average waiting time is 3.610000 ms
+Process 19: Average waiting time is 6.320000 ms
+Process 19: Average waiting time is 9.930000 ms
+Process 19: Average waiting time is 11.440001 ms
+Process 19: Average waiting time is 15.750000 ms
+Process 19: Average waiting time is 18.160000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -397
+The number of processes whose deadlines were missed is 477
+Process 20: Average waiting time is 24.869999 ms
+Process 20: Average waiting time is 30.470001 ms
+Process 20: Average waiting time is 31.579998 ms
+Process 20: Average waiting time is 34.389999 ms
+Process 20: Average waiting time is 39.099998 ms
+Process 20: Average waiting time is 40.410000 ms
+Process 20: Average waiting time is 45.919998 ms
+Process 20: Average waiting time is 48.329998 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -31
+The number of processes whose deadlines were missed is 111
+Process 21: Average waiting time is 0.000000 ms
+Process 21: Average waiting time is 3.900000 ms
+Process 21: Average waiting time is 8.309999 ms
+Process 21: Average waiting time is 10.920000 ms
+Process 21: Average waiting time is 14.530001 ms
+Process 21: Average waiting time is 15.339999 ms
+Process 21: Average waiting time is 17.750000 ms
+Process 21: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -443
+The number of processes whose deadlines were missed is 523
+Process 22: Average waiting time is 36.540001 ms
+Process 22: Average waiting time is 41.439999 ms
+Process 22: Average waiting time is 45.250000 ms
+Process 22: Average waiting time is 52.959999 ms
+Process 22: Average waiting time is 34.900002 ms
+Process 22: Average waiting time is 39.610001 ms
+Process 22: Average waiting time is 36.219997 ms
+Process 22: Average waiting time is 41.730003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -426
+The number of processes whose deadlines were missed is 506
+Process 23: Average waiting time is 42.739998 ms
+Process 23: Average waiting time is 37.639999 ms
+Process 23: Average waiting time is 41.950001 ms
+Process 23: Average waiting time is 49.359997 ms
+Process 23: Average waiting time is 35.099998 ms
+Process 23: Average waiting time is 33.610001 ms
+Process 23: Average waiting time is 38.119999 ms
+Process 23: Average waiting time is 44.130001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -240
+The number of processes whose deadlines were missed is 320
+Process 24: Average waiting time is 35.309998 ms
+Process 24: Average waiting time is 24.340000 ms
+Process 24: Average waiting time is 21.350000 ms
+Process 24: Average waiting time is 24.859999 ms
+Process 24: Average waiting time is 31.170002 ms
+Process 24: Average waiting time is 29.480000 ms
+Process 24: Average waiting time is 28.389999 ms
+Process 24: Average waiting time is 32.299999 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -468
+The number of processes whose deadlines were missed is 548
+Process 25: Average waiting time is 43.340004 ms
+Process 25: Average waiting time is 49.940002 ms
+Process 25: Average waiting time is 50.650002 ms
+Process 25: Average waiting time is 33.489998 ms
+Process 25: Average waiting time is 40.900002 ms
+Process 25: Average waiting time is 43.310001 ms
+Process 25: Average waiting time is 47.820000 ms
+Process 25: Average waiting time is 44.730000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -315
+The number of processes whose deadlines were missed is 395
+Process 26: Average waiting time is 28.539999 ms
+Process 26: Average waiting time is 34.340000 ms
+Process 26: Average waiting time is 33.549999 ms
+Process 26: Average waiting time is 39.359997 ms
+Process 26: Average waiting time is 39.869999 ms
+Process 26: Average waiting time is 40.380001 ms
+Process 26: Average waiting time is 29.119999 ms
+Process 26: Average waiting time is 27.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 80
+The number of processes whose deadlines were missed is 0
+Process 27: Average waiting time is 0.000000 ms
+Process 27: Average waiting time is 0.800000 ms
+Process 27: Average waiting time is 0.000000 ms
+Process 27: Average waiting time is 0.000000 ms
+Process 27: Average waiting time is 0.000000 ms
+Process 27: Average waiting time is 0.000000 ms
+Process 27: Average waiting time is 0.000000 ms
+Process 27: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -328
+The number of processes whose deadlines were missed is 408
+Process 28: Average waiting time is 31.740000 ms
+Process 28: Average waiting time is 28.840000 ms
+Process 28: Average waiting time is 31.150000 ms
+Process 28: Average waiting time is 33.459999 ms
+Process 28: Average waiting time is 35.270000 ms
+Process 28: Average waiting time is 32.480003 ms
+Process 28: Average waiting time is 35.489998 ms
+Process 28: Average waiting time is 26.130001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 80
+The number of processes whose deadlines were missed is 0
+Process 29: Average waiting time is 0.000000 ms
+Process 29: Average waiting time is 3.900000 ms
+Process 29: Average waiting time is 0.000000 ms
+Process 29: Average waiting time is 0.000000 ms
+Process 29: Average waiting time is 0.000000 ms
+Process 29: Average waiting time is 0.000000 ms
+Process 29: Average waiting time is 0.000000 ms
+Process 29: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 80
+The number of processes whose deadlines were missed is 0
+Process 30: Average waiting time is 0.000000 ms
+Process 30: Average waiting time is 1.000000 ms
+Process 30: Average waiting time is 0.000000 ms
+Process 30: Average waiting time is 0.000000 ms
+Process 30: Average waiting time is 0.000000 ms
+Process 30: Average waiting time is 0.000000 ms
+Process 30: Average waiting time is 0.000000 ms
+Process 30: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -252
+The number of processes whose deadlines were missed is 332
+Process 31: Average waiting time is 29.939999 ms
+Process 31: Average waiting time is 24.940001 ms
+Process 31: Average waiting time is 34.650002 ms
+Process 31: Average waiting time is 32.959999 ms
+Process 31: Average waiting time is 32.269997 ms
+Process 31: Average waiting time is 24.810001 ms
+Process 31: Average waiting time is 24.820000 ms
+Process 31: Average waiting time is 28.530003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -426
+The number of processes whose deadlines were missed is 506
+Process 32: Average waiting time is 37.340004 ms
+Process 32: Average waiting time is 44.040001 ms
+Process 32: Average waiting time is 43.549999 ms
+Process 32: Average waiting time is 50.459999 ms
+Process 32: Average waiting time is 46.070000 ms
+Process 32: Average waiting time is 33.110001 ms
+Process 32: Average waiting time is 35.419998 ms
+Process 32: Average waiting time is 39.730003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -429
+The number of processes whose deadlines were missed is 509
+Process 33: Average waiting time is 36.140003 ms
+Process 33: Average waiting time is 43.540001 ms
+Process 33: Average waiting time is 46.849998 ms
+Process 33: Average waiting time is 51.859997 ms
+Process 33: Average waiting time is 33.299999 ms
+Process 33: Average waiting time is 40.510002 ms
+Process 33: Average waiting time is 42.919998 ms
+Process 33: Average waiting time is 43.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -33
+The number of processes whose deadlines were missed is 113
+Process 34: Average waiting time is 15.870000 ms
+Process 34: Average waiting time is 0.000000 ms
+Process 34: Average waiting time is 3.910000 ms
+Process 34: Average waiting time is 6.120000 ms
+Process 34: Average waiting time is 8.030001 ms
+Process 34: Average waiting time is 8.740000 ms
+Process 34: Average waiting time is 11.450000 ms
+Process 34: Average waiting time is 12.559999 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -59
+The number of processes whose deadlines were missed is 139
+Process 35: Average waiting time is 0.000000 ms
+Process 35: Average waiting time is 1.200000 ms
+Process 35: Average waiting time is 3.210000 ms
+Process 35: Average waiting time is 5.420000 ms
+Process 35: Average waiting time is 7.230000 ms
+Process 35: Average waiting time is 11.640000 ms
+Process 35: Average waiting time is 15.750000 ms
+Process 35: Average waiting time is 17.660000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 80
+The number of processes whose deadlines were missed is 0
+Process 36: Average waiting time is 0.000000 ms
+Process 36: Average waiting time is 3.800000 ms
+Process 36: Average waiting time is 0.000000 ms
+Process 36: Average waiting time is 0.000000 ms
+Process 36: Average waiting time is 0.000000 ms
+Process 36: Average waiting time is 0.000000 ms
+Process 36: Average waiting time is 0.000000 ms
+Process 36: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -409
+The number of processes whose deadlines were missed is 489
+Process 37: Average waiting time is 30.939999 ms
+Process 37: Average waiting time is 38.739998 ms
+Process 37: Average waiting time is 42.250000 ms
+Process 37: Average waiting time is 39.859997 ms
+Process 37: Average waiting time is 44.769997 ms
+Process 37: Average waiting time is 49.080002 ms
+Process 37: Average waiting time is 47.889999 ms
+Process 37: Average waiting time is 35.930000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 51
+The number of processes whose deadlines were missed is 29
+Process 38: Average waiting time is 0.000000 ms
+Process 38: Average waiting time is 0.800000 ms
+Process 38: Average waiting time is 4.110000 ms
+Process 38: Average waiting time is 8.020000 ms
+Process 38: Average waiting time is 0.000000 ms
+Process 38: Average waiting time is 0.000000 ms
+Process 38: Average waiting time is 0.000000 ms
+Process 38: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -275
+The number of processes whose deadlines were missed is 355
+Process 39: Average waiting time is 36.139999 ms
+Process 39: Average waiting time is 32.739998 ms
+Process 39: Average waiting time is 37.250000 ms
+Process 39: Average waiting time is 19.289999 ms
+Process 39: Average waiting time is 22.500000 ms
+Process 39: Average waiting time is 25.010000 ms
+Process 39: Average waiting time is 30.419998 ms
+Process 39: Average waiting time is 30.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -310
+The number of processes whose deadlines were missed is 390
+Process 40: Average waiting time is 34.340000 ms
+Process 40: Average waiting time is 35.540001 ms
+Process 40: Average waiting time is 36.750000 ms
+Process 40: Average waiting time is 24.389999 ms
+Process 40: Average waiting time is 27.000000 ms
+Process 40: Average waiting time is 27.810001 ms
+Process 40: Average waiting time is 32.719997 ms
+Process 40: Average waiting time is 29.930002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -424
+The number of processes whose deadlines were missed is 504
+Process 41: Average waiting time is 44.309998 ms
+Process 41: Average waiting time is 34.910000 ms
+Process 41: Average waiting time is 42.220001 ms
+Process 41: Average waiting time is 48.829998 ms
+Process 41: Average waiting time is 46.140003 ms
+Process 41: Average waiting time is 48.149998 ms
+Process 41: Average waiting time is 40.759998 ms
+Process 41: Average waiting time is 42.800003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 54
+The number of processes whose deadlines were missed is 26
+Process 42: Average waiting time is 0.000000 ms
+Process 42: Average waiting time is 2.000000 ms
+Process 42: Average waiting time is 4.710000 ms
+Process 42: Average waiting time is 5.520000 ms
+Process 42: Average waiting time is 0.000000 ms
+Process 42: Average waiting time is 0.000000 ms
+Process 42: Average waiting time is 0.000000 ms
+Process 42: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -498
+The number of processes whose deadlines were missed is 578
+Process 43: Average waiting time is 52.740002 ms
+Process 43: Average waiting time is 52.940002 ms
+Process 43: Average waiting time is 52.650002 ms
+Process 43: Average waiting time is 33.090000 ms
+Process 43: Average waiting time is 39.200001 ms
+Process 43: Average waiting time is 41.310001 ms
+Process 43: Average waiting time is 48.619999 ms
+Process 43: Average waiting time is 47.329998 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -458
+The number of processes whose deadlines were missed is 538
+Process 44: Average waiting time is 45.540001 ms
+Process 44: Average waiting time is 48.840004 ms
+Process 44: Average waiting time is 31.279999 ms
+Process 44: Average waiting time is 34.590000 ms
+Process 44: Average waiting time is 37.000000 ms
+Process 44: Average waiting time is 38.709999 ms
+Process 44: Average waiting time is 40.119999 ms
+Process 44: Average waiting time is 43.329998 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -391
+The number of processes whose deadlines were missed is 471
+Process 45: Average waiting time is 35.909996 ms
+Process 45: Average waiting time is 36.739998 ms
+Process 45: Average waiting time is 34.849998 ms
+Process 45: Average waiting time is 38.559998 ms
+Process 45: Average waiting time is 36.469997 ms
+Process 45: Average waiting time is 36.180000 ms
+Process 45: Average waiting time is 44.489998 ms
+Process 45: Average waiting time is 41.300003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -383
+The number of processes whose deadlines were missed is 463
+Process 46: Average waiting time is 49.109997 ms
+Process 46: Average waiting time is 39.209999 ms
+Process 46: Average waiting time is 37.750000 ms
+Process 46: Average waiting time is 33.459999 ms
+Process 46: Average waiting time is 43.669998 ms
+Process 46: Average waiting time is 41.680000 ms
+Process 46: Average waiting time is 40.590000 ms
+Process 46: Average waiting time is 48.800003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -504
+The number of processes whose deadlines were missed is 584
+Process 47: Average waiting time is 44.540001 ms
+Process 47: Average waiting time is 53.540001 ms
+Process 47: Average waiting time is 57.250000 ms
+Process 47: Average waiting time is 60.259998 ms
+Process 47: Average waiting time is 34.599998 ms
+Process 47: Average waiting time is 39.209999 ms
+Process 47: Average waiting time is 42.619999 ms
+Process 47: Average waiting time is 44.730000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -343
+The number of processes whose deadlines were missed is 423
+Process 48: Average waiting time is 32.739998 ms
+Process 48: Average waiting time is 35.840000 ms
+Process 48: Average waiting time is 43.450001 ms
+Process 48: Average waiting time is 41.159996 ms
+Process 48: Average waiting time is 27.000000 ms
+Process 48: Average waiting time is 32.510002 ms
+Process 48: Average waiting time is 34.919998 ms
+Process 48: Average waiting time is 37.730003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -32
+The number of processes whose deadlines were missed is 112
+Process 49: Average waiting time is 15.570000 ms
+Process 49: Average waiting time is 0.000000 ms
+Process 49: Average waiting time is 3.410000 ms
+Process 49: Average waiting time is 5.720000 ms
+Process 49: Average waiting time is 7.530000 ms
+Process 49: Average waiting time is 8.240000 ms
+Process 49: Average waiting time is 9.750000 ms
+Process 49: Average waiting time is 11.760000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 80
+The number of processes whose deadlines were missed is 0
+Process 50: Average waiting time is 0.000000 ms
+Process 50: Average waiting time is 0.900000 ms
+Process 50: Average waiting time is 1.010000 ms
+Process 50: Average waiting time is 0.000000 ms
+Process 50: Average waiting time is 0.000000 ms
+Process 50: Average waiting time is 0.000000 ms
+Process 50: Average waiting time is 0.000000 ms
+Process 50: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 61
+The number of processes whose deadlines were missed is 19
+Process 51: Average waiting time is 0.000000 ms
+Process 51: Average waiting time is 1.300000 ms
+Process 51: Average waiting time is 3.810000 ms
+Process 51: Average waiting time is 5.120000 ms
+Process 51: Average waiting time is 5.530000 ms
+Process 51: Average waiting time is 0.000000 ms
+Process 51: Average waiting time is 0.000000 ms
+Process 51: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -408
+The number of processes whose deadlines were missed is 488
+Process 52: Average waiting time is 33.139999 ms
+Process 52: Average waiting time is 37.340000 ms
+Process 52: Average waiting time is 41.950001 ms
+Process 52: Average waiting time is 41.859997 ms
+Process 52: Average waiting time is 39.470001 ms
+Process 52: Average waiting time is 50.680000 ms
+Process 52: Average waiting time is 50.189999 ms
+Process 52: Average waiting time is 44.900002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -511
+The number of processes whose deadlines were missed is 591
+Process 53: Average waiting time is 46.340004 ms
+Process 53: Average waiting time is 54.740002 ms
+Process 53: Average waiting time is 56.549999 ms
+Process 53: Average waiting time is 57.159996 ms
+Process 53: Average waiting time is 55.170002 ms
+Process 53: Average waiting time is 37.510002 ms
+Process 53: Average waiting time is 41.519997 ms
+Process 53: Average waiting time is 47.129997 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -280
+The number of processes whose deadlines were missed is 360
+Process 54: Average waiting time is 34.709999 ms
+Process 54: Average waiting time is 32.709999 ms
+Process 54: Average waiting time is 25.420002 ms
+Process 54: Average waiting time is 34.629997 ms
+Process 54: Average waiting time is 35.640003 ms
+Process 54: Average waiting time is 35.949997 ms
+Process 54: Average waiting time is 32.689999 ms
+Process 54: Average waiting time is 31.700001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -40
+The number of processes whose deadlines were missed is 120
+Process 55: Average waiting time is 0.000000 ms
+Process 55: Average waiting time is 4.400000 ms
+Process 55: Average waiting time is 9.110000 ms
+Process 55: Average waiting time is 9.719999 ms
+Process 55: Average waiting time is 13.230000 ms
+Process 55: Average waiting time is 14.539999 ms
+Process 55: Average waiting time is 18.549999 ms
+Process 55: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -511
+The number of processes whose deadlines were missed is 591
+Process 56: Average waiting time is 41.309998 ms
+Process 56: Average waiting time is 52.209999 ms
+Process 56: Average waiting time is 51.520000 ms
+Process 56: Average waiting time is 60.329998 ms
+Process 56: Average waiting time is 59.839996 ms
+Process 56: Average waiting time is 54.849998 ms
+Process 56: Average waiting time is 50.559998 ms
+Process 56: Average waiting time is 50.600002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -497
+The number of processes whose deadlines were missed is 577
+Process 57: Average waiting time is 53.909996 ms
+Process 57: Average waiting time is 58.809998 ms
+Process 57: Average waiting time is 52.520000 ms
+Process 57: Average waiting time is 40.059998 ms
+Process 57: Average waiting time is 43.769997 ms
+Process 57: Average waiting time is 49.480003 ms
+Process 57: Average waiting time is 42.590000 ms
+Process 57: Average waiting time is 51.799999 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 29
+The number of processes whose deadlines were missed is 51
+Process 58: Average waiting time is 0.000000 ms
+Process 58: Average waiting time is 4.300000 ms
+Process 58: Average waiting time is 5.610000 ms
+Process 58: Average waiting time is 8.520000 ms
+Process 58: Average waiting time is 9.730000 ms
+Process 58: Average waiting time is 0.000000 ms
+Process 58: Average waiting time is 0.000000 ms
+Process 58: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -288
+The number of processes whose deadlines were missed is 368
+Process 59: Average waiting time is 28.409998 ms
+Process 59: Average waiting time is 29.810001 ms
+Process 59: Average waiting time is 39.320000 ms
+Process 59: Average waiting time is 38.730000 ms
+Process 59: Average waiting time is 32.739998 ms
+Process 59: Average waiting time is 42.449997 ms
+Process 59: Average waiting time is 30.490000 ms
+Process 59: Average waiting time is 30.799999 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -354
+The number of processes whose deadlines were missed is 434
+Process 60: Average waiting time is 39.809998 ms
+Process 60: Average waiting time is 29.539999 ms
+Process 60: Average waiting time is 36.549999 ms
+Process 60: Average waiting time is 27.459997 ms
+Process 60: Average waiting time is 35.769997 ms
+Process 60: Average waiting time is 43.680000 ms
+Process 60: Average waiting time is 41.489998 ms
+Process 60: Average waiting time is 44.600002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 80
+The number of processes whose deadlines were missed is 0
+Process 61: Average waiting time is 0.000000 ms
+Process 61: Average waiting time is 0.600000 ms
+Process 61: Average waiting time is 0.000000 ms
+Process 61: Average waiting time is 0.000000 ms
+Process 61: Average waiting time is 0.000000 ms
+Process 61: Average waiting time is 0.000000 ms
+Process 61: Average waiting time is 0.000000 ms
+Process 61: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -375
+The number of processes whose deadlines were missed is 455
+Process 62: Average waiting time is 39.809998 ms
+Process 62: Average waiting time is 36.810001 ms
+Process 62: Average waiting time is 40.320000 ms
+Process 62: Average waiting time is 40.430000 ms
+Process 62: Average waiting time is 39.840004 ms
+Process 62: Average waiting time is 31.350000 ms
+Process 62: Average waiting time is 45.659996 ms
+Process 62: Average waiting time is 32.900002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -73
+The number of processes whose deadlines were missed is 153
+Process 63: Average waiting time is 0.000000 ms
+Process 63: Average waiting time is 4.700000 ms
+Process 63: Average waiting time is 8.210000 ms
+Process 63: Average waiting time is 11.719999 ms
+Process 63: Average waiting time is 13.930000 ms
+Process 63: Average waiting time is 16.039999 ms
+Process 63: Average waiting time is 20.549999 ms
+Process 63: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -353
+The number of processes whose deadlines were missed is 433
+Process 64: Average waiting time is 33.139999 ms
+Process 64: Average waiting time is 33.040001 ms
+Process 64: Average waiting time is 29.549999 ms
+Process 64: Average waiting time is 38.759998 ms
+Process 64: Average waiting time is 32.669998 ms
+Process 64: Average waiting time is 37.280003 ms
+Process 64: Average waiting time is 44.689999 ms
+Process 64: Average waiting time is 43.100002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -426
+The number of processes whose deadlines were missed is 506
+Process 65: Average waiting time is 30.939999 ms
+Process 65: Average waiting time is 41.939999 ms
+Process 65: Average waiting time is 35.950001 ms
+Process 65: Average waiting time is 40.959999 ms
+Process 65: Average waiting time is 50.369999 ms
+Process 65: Average waiting time is 50.580002 ms
+Process 65: Average waiting time is 49.989998 ms
+Process 65: Average waiting time is 35.730003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -485
+The number of processes whose deadlines were missed is 565
+Process 66: Average waiting time is 39.540001 ms
+Process 66: Average waiting time is 42.340000 ms
+Process 66: Average waiting time is 56.250000 ms
+Process 66: Average waiting time is 52.059998 ms
+Process 66: Average waiting time is 58.370003 ms
+Process 66: Average waiting time is 51.480003 ms
+Process 66: Average waiting time is 39.519997 ms
+Process 66: Average waiting time is 40.730003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 14
+The number of processes whose deadlines were missed is 66
+Process 67: Average waiting time is 0.000000 ms
+Process 67: Average waiting time is 4.200000 ms
+Process 67: Average waiting time is 8.809999 ms
+Process 67: Average waiting time is 11.820000 ms
+Process 67: Average waiting time is 0.000000 ms
+Process 67: Average waiting time is 0.000000 ms
+Process 67: Average waiting time is 0.000000 ms
+Process 67: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -365
+The number of processes whose deadlines were missed is 445
+Process 68: Average waiting time is 36.139999 ms
+Process 68: Average waiting time is 36.340000 ms
+Process 68: Average waiting time is 30.450001 ms
+Process 68: Average waiting time is 40.959999 ms
+Process 68: Average waiting time is 32.869999 ms
+Process 68: Average waiting time is 42.180000 ms
+Process 68: Average waiting time is 42.689999 ms
+Process 68: Average waiting time is 28.930002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -483
+The number of processes whose deadlines were missed is 563
+Process 69: Average waiting time is 57.209999 ms
+Process 69: Average waiting time is 56.609997 ms
+Process 69: Average waiting time is 53.720001 ms
+Process 69: Average waiting time is 36.859997 ms
+Process 69: Average waiting time is 41.269997 ms
+Process 69: Average waiting time is 40.280003 ms
+Process 69: Average waiting time is 51.090000 ms
+Process 69: Average waiting time is 46.100002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -426
+The number of processes whose deadlines were missed is 506
+Process 70: Average waiting time is 43.540001 ms
+Process 70: Average waiting time is 39.939999 ms
+Process 70: Average waiting time is 42.150002 ms
+Process 70: Average waiting time is 43.559998 ms
+Process 70: Average waiting time is 49.369999 ms
+Process 70: Average waiting time is 37.610001 ms
+Process 70: Average waiting time is 35.419998 ms
+Process 70: Average waiting time is 36.930000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -395
+The number of processes whose deadlines were missed is 475
+Process 71: Average waiting time is 43.709999 ms
+Process 71: Average waiting time is 34.340000 ms
+Process 71: Average waiting time is 39.250000 ms
+Process 71: Average waiting time is 42.159996 ms
+Process 71: Average waiting time is 34.669998 ms
+Process 71: Average waiting time is 47.380001 ms
+Process 71: Average waiting time is 43.790001 ms
+Process 71: Average waiting time is 45.200005 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -445
+The number of processes whose deadlines were missed is 525
+Process 72: Average waiting time is 43.340004 ms
+Process 72: Average waiting time is 51.840004 ms
+Process 72: Average waiting time is 30.179998 ms
+Process 72: Average waiting time is 37.290001 ms
+Process 72: Average waiting time is 36.200001 ms
+Process 72: Average waiting time is 40.310001 ms
+Process 72: Average waiting time is 48.320000 ms
+Process 72: Average waiting time is 50.730000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -495
+The number of processes whose deadlines were missed is 575
+Process 73: Average waiting time is 47.879997 ms
+Process 73: Average waiting time is 49.909996 ms
+Process 73: Average waiting time is 40.020000 ms
+Process 73: Average waiting time is 59.029999 ms
+Process 73: Average waiting time is 55.039997 ms
+Process 73: Average waiting time is 59.650002 ms
+Process 73: Average waiting time is 59.659996 ms
+Process 73: Average waiting time is 55.070007 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -481
+The number of processes whose deadlines were missed is 561
+Process 74: Average waiting time is 49.109997 ms
+Process 74: Average waiting time is 37.540001 ms
+Process 74: Average waiting time is 44.250000 ms
+Process 74: Average waiting time is 50.059998 ms
+Process 74: Average waiting time is 49.869999 ms
+Process 74: Average waiting time is 59.080006 ms
+Process 74: Average waiting time is 57.589996 ms
+Process 74: Average waiting time is 60.500000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -449
+The number of processes whose deadlines were missed is 529
+Process 75: Average waiting time is 38.340000 ms
+Process 75: Average waiting time is 37.239998 ms
+Process 75: Average waiting time is 35.349998 ms
+Process 75: Average waiting time is 45.959999 ms
+Process 75: Average waiting time is 40.769997 ms
+Process 75: Average waiting time is 40.580002 ms
+Process 75: Average waiting time is 45.689999 ms
+Process 75: Average waiting time is 39.930000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 28
+The number of processes whose deadlines were missed is 52
+Process 76: Average waiting time is 0.000000 ms
+Process 76: Average waiting time is 3.400000 ms
+Process 76: Average waiting time is 7.010000 ms
+Process 76: Average waiting time is 7.820000 ms
+Process 76: Average waiting time is 7.930000 ms
+Process 76: Average waiting time is 11.140000 ms
+Process 76: Average waiting time is 0.000000 ms
+Process 76: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 8
+The number of processes whose deadlines were missed is 72
+Process 77: Average waiting time is 0.000000 ms
+Process 77: Average waiting time is 2.800000 ms
+Process 77: Average waiting time is 7.110000 ms
+Process 77: Average waiting time is 7.520000 ms
+Process 77: Average waiting time is 10.030001 ms
+Process 77: Average waiting time is 11.040000 ms
+Process 77: Average waiting time is 13.850000 ms
+Process 77: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -466
+The number of processes whose deadlines were missed is 546
+Process 78: Average waiting time is 34.540001 ms
+Process 78: Average waiting time is 41.540001 ms
+Process 78: Average waiting time is 42.849998 ms
+Process 78: Average waiting time is 37.459999 ms
+Process 78: Average waiting time is 43.969997 ms
+Process 78: Average waiting time is 41.480003 ms
+Process 78: Average waiting time is 44.290001 ms
+Process 78: Average waiting time is 51.200001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -430
+The number of processes whose deadlines were missed is 510
+Process 79: Average waiting time is 46.340004 ms
+Process 79: Average waiting time is 46.739998 ms
+Process 79: Average waiting time is 30.379999 ms
+Process 79: Average waiting time is 33.189999 ms
+Process 79: Average waiting time is 33.200001 ms
+Process 79: Average waiting time is 36.610001 ms
+Process 79: Average waiting time is 42.719997 ms
+Process 79: Average waiting time is 45.930000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -463
+The number of processes whose deadlines were missed is 543
+Process 80: Average waiting time is 47.140003 ms
+Process 80: Average waiting time is 28.370001 ms
+Process 80: Average waiting time is 33.180000 ms
+Process 80: Average waiting time is 38.489998 ms
+Process 80: Average waiting time is 45.200001 ms
+Process 80: Average waiting time is 48.010002 ms
+Process 80: Average waiting time is 46.719997 ms
+Process 80: Average waiting time is 49.930000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -471
+The number of processes whose deadlines were missed is 551
+Process 81: Average waiting time is 42.939999 ms
+Process 81: Average waiting time is 38.639999 ms
+Process 81: Average waiting time is 43.950001 ms
+Process 81: Average waiting time is 51.359997 ms
+Process 81: Average waiting time is 56.270000 ms
+Process 81: Average waiting time is 56.380005 ms
+Process 81: Average waiting time is 38.320000 ms
+Process 81: Average waiting time is 43.530003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -462
+The number of processes whose deadlines were missed is 542
+Process 82: Average waiting time is 36.140003 ms
+Process 82: Average waiting time is 43.439999 ms
+Process 82: Average waiting time is 44.950001 ms
+Process 82: Average waiting time is 56.359997 ms
+Process 82: Average waiting time is 57.470001 ms
+Process 82: Average waiting time is 36.510002 ms
+Process 82: Average waiting time is 40.919998 ms
+Process 82: Average waiting time is 43.130001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -416
+The number of processes whose deadlines were missed is 496
+Process 83: Average waiting time is 31.740000 ms
+Process 83: Average waiting time is 39.439999 ms
+Process 83: Average waiting time is 41.950001 ms
+Process 83: Average waiting time is 45.659996 ms
+Process 83: Average waiting time is 46.269997 ms
+Process 83: Average waiting time is 36.910000 ms
+Process 83: Average waiting time is 36.419998 ms
+Process 83: Average waiting time is 39.730003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -429
+The number of processes whose deadlines were missed is 509
+Process 84: Average waiting time is 38.309998 ms
+Process 84: Average waiting time is 46.709999 ms
+Process 84: Average waiting time is 46.320000 ms
+Process 84: Average waiting time is 40.559998 ms
+Process 84: Average waiting time is 39.469997 ms
+Process 84: Average waiting time is 33.080002 ms
+Process 84: Average waiting time is 46.590000 ms
+Process 84: Average waiting time is 44.300003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -429
+The number of processes whose deadlines were missed is 509
+Process 85: Average waiting time is 35.139999 ms
+Process 85: Average waiting time is 34.439999 ms
+Process 85: Average waiting time is 45.150002 ms
+Process 85: Average waiting time is 45.559998 ms
+Process 85: Average waiting time is 42.570000 ms
+Process 85: Average waiting time is 46.780003 ms
+Process 85: Average waiting time is 45.989998 ms
+Process 85: Average waiting time is 53.599998 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -441
+The number of processes whose deadlines were missed is 521
+Process 86: Average waiting time is 39.809998 ms
+Process 86: Average waiting time is 45.509998 ms
+Process 86: Average waiting time is 42.620003 ms
+Process 86: Average waiting time is 38.730000 ms
+Process 86: Average waiting time is 42.070000 ms
+Process 86: Average waiting time is 38.980003 ms
+Process 86: Average waiting time is 42.989998 ms
+Process 86: Average waiting time is 44.000004 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -50
+The number of processes whose deadlines were missed is 130
+Process 87: Average waiting time is 0.000000 ms
+Process 87: Average waiting time is 3.500000 ms
+Process 87: Average waiting time is 8.010000 ms
+Process 87: Average waiting time is 10.520000 ms
+Process 87: Average waiting time is 15.030001 ms
+Process 87: Average waiting time is 17.639999 ms
+Process 87: Average waiting time is 18.549999 ms
+Process 87: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -439
+The number of processes whose deadlines were missed is 519
+Process 88: Average waiting time is 41.939999 ms
+Process 88: Average waiting time is 42.639999 ms
+Process 88: Average waiting time is 46.349998 ms
+Process 88: Average waiting time is 46.559998 ms
+Process 88: Average waiting time is 32.400002 ms
+Process 88: Average waiting time is 34.410000 ms
+Process 88: Average waiting time is 43.119999 ms
+Process 88: Average waiting time is 40.130001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -376
+The number of processes whose deadlines were missed is 456
+Process 89: Average waiting time is 44.139999 ms
+Process 89: Average waiting time is 39.939999 ms
+Process 89: Average waiting time is 43.750000 ms
+Process 89: Average waiting time is 26.689999 ms
+Process 89: Average waiting time is 35.500000 ms
+Process 89: Average waiting time is 32.810001 ms
+Process 89: Average waiting time is 35.320000 ms
+Process 89: Average waiting time is 39.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 67
+The number of processes whose deadlines were missed is 13
+Process 90: Average waiting time is 0.000000 ms
+Process 90: Average waiting time is 3.900000 ms
+Process 90: Average waiting time is 5.310000 ms
+Process 90: Average waiting time is 0.000000 ms
+Process 90: Average waiting time is 0.000000 ms
+Process 90: Average waiting time is 0.000000 ms
+Process 90: Average waiting time is 0.000000 ms
+Process 90: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -443
+The number of processes whose deadlines were missed is 523
+Process 91: Average waiting time is 41.309998 ms
+Process 91: Average waiting time is 56.909996 ms
+Process 91: Average waiting time is 48.320000 ms
+Process 91: Average waiting time is 35.759998 ms
+Process 91: Average waiting time is 47.269997 ms
+Process 91: Average waiting time is 39.480003 ms
+Process 91: Average waiting time is 51.989998 ms
+Process 91: Average waiting time is 52.700001 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -426
+The number of processes whose deadlines were missed is 506
+Process 92: Average waiting time is 39.740002 ms
+Process 92: Average waiting time is 50.640003 ms
+Process 92: Average waiting time is 49.849998 ms
+Process 92: Average waiting time is 30.289999 ms
+Process 92: Average waiting time is 34.900002 ms
+Process 92: Average waiting time is 36.810001 ms
+Process 92: Average waiting time is 38.820000 ms
+Process 92: Average waiting time is 40.530003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -451
+The number of processes whose deadlines were missed is 531
+Process 93: Average waiting time is 40.740002 ms
+Process 93: Average waiting time is 53.240002 ms
+Process 93: Average waiting time is 44.049999 ms
+Process 93: Average waiting time is 54.759998 ms
+Process 93: Average waiting time is 34.200001 ms
+Process 93: Average waiting time is 33.410000 ms
+Process 93: Average waiting time is 37.919998 ms
+Process 93: Average waiting time is 45.330002 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -314
+The number of processes whose deadlines were missed is 394
+Process 94: Average waiting time is 28.139999 ms
+Process 94: Average waiting time is 26.439999 ms
+Process 94: Average waiting time is 37.150002 ms
+Process 94: Average waiting time is 39.859997 ms
+Process 94: Average waiting time is 31.569998 ms
+Process 94: Average waiting time is 42.780003 ms
+Process 94: Average waiting time is 28.019999 ms
+Process 94: Average waiting time is 32.530003 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -468
+The number of processes whose deadlines were missed is 548
+Process 95: Average waiting time is 44.340000 ms
+Process 95: Average waiting time is 37.540001 ms
+Process 95: Average waiting time is 41.950001 ms
+Process 95: Average waiting time is 53.659996 ms
+Process 95: Average waiting time is 50.469997 ms
+Process 95: Average waiting time is 52.280006 ms
+Process 95: Average waiting time is 40.419998 ms
+Process 95: Average waiting time is 40.930000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 80
+The number of processes whose deadlines were missed is 0
+Process 96: Average waiting time is 0.000000 ms
+Process 96: Average waiting time is 0.300000 ms
+Process 96: Average waiting time is 4.610000 ms
+Process 96: Average waiting time is 0.000000 ms
+Process 96: Average  96: Average waiting time is 38.989998 ms
+Process 96: Average waiting time is 38.700001 ms
+Process 96: Average waiting time is 45.410000 ms
+Process 96: Average waiting time is 50.019997 ms
+Process 96: Average waiting time is 46.730000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -404
+The number of processes whose deadlines were missed is 484
+Process 97: Average waiting time is 47.140003 ms
+Process 97: Average waiting time is 46.639999 ms
+Process 97: Average waiting time is 27.079998 ms
+Process 97: Average waiting time is 35.790001 ms
+Process 97: Average waiting time is 33.799999 ms
+Process 97: Average waiting time is 36.610001 ms
+Process 97: Average waiting time is 45.619999 ms
+Process 97: Average waiting time is 41.930000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is 76
+The number of processes whose deadlines were missed is 4
+Process 98: Average waiting time is 0.000000 ms
+Process 98: Average waiting time is 0.700000 ms
+Process 98: Average waiting time is 4.010000 ms
+Process 98: Average waiting time is 4.320000 ms
+Process 98: Average waiting time is 4.430000 ms
+Process 98: Average waiting time is 0.000000 ms
+Process 98: Average waiting time is 0.000000 ms
+Process 98: Average waiting time is 0.000000 ms
+The number of processes entered is 80
+The number of processes that were successfully completed is -421
+The number of processes whose deadlines were missed is 501
+Process 99: Average waiting time is 38.740002 ms
+Process 99: Average waiting time is 45.439999 ms
+Process 99: Average waiting time is 50.349998 ms
+Process 99: Average waiting time is 32.689999 ms
+Process 99: Average waiting time is 36.900002 ms
+Process 99: Average waiting time is 35.810001 ms
+Process 99: Average waiting time is 43.419998 ms
+Process 99: Average waiting time is 42.730003 ms
+e is 51.189999 ms
+Process 99: Average waiting time is 49.100002 ms
+0003 ms
+ocess 99: Average waiting time is 35.599998 ms

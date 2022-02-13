@@ -1,0 +1,36 @@
+\documentclass[15pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[pdftex]{graphicx}     
+\usepackage{amssymb}
+\usepackage{ragged2e}
+\title{CS3523 assignment 1}
+\author{cs20btech11005 }
+\date{January 2022}
+
+\begin{document}
+
+\maketitle
+
+The codes are available at https://github.com/DineshAvulaMohanaDurga/Btech/tree/main/assgn%201 
+
+\begin{itemize}
+\item The code takes input from input file named "pointslist.txt" which contains the details of number of threads \textbf{nt},points \textbf{np}, the point \textbf{P} from which the distances are measured, the details of points.
+\item The program creates \textbf{nt} threads and takes \textbf{np} input points from the input file.
+\item Each thread handles $\frac{\textbf{np}}{\textbf{nt}}$ points and each thread finds the closest point to \textbf{P} among the points given to each thread and passes this point to the main thread.
+\item The main thread finds the point that is closest to the point P among the points passed by the threads.
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1.25\textwidth]{var threads.png}
+    \caption{Threads}
+    \label{fig:var threads}
+\end{figure} \\
+\end{itemize}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1.25\textwidth]{var points.png}
+    \caption{Points}
+    \label{fig:var points}
+\end{figure} 
+The red lines/dots represent sequential execution.\\
+The blue lines/points represent parellel execution.
+\end{document}
