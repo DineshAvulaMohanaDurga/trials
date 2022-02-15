@@ -1,88 +1,422 @@
-Process 1:process time 5, deadline 10, period 10;joined the system at time 0
-Process 2:process time 3, deadline 15, period 15;joined the system at time 0
-Process 3:process time 4, deadline 16, period 16;joined the system at time 0
-Process 1 starts execution at time 0
-Process 1 finishes execution at time 5
-Process 2 starts execution at time 5
-Process 2 finishes execution at time 8
-Process 3 starts execution at time 8
-Process 3 preempted by process 1 at time 10; Remaining time of Process 3 is 6
-Process 1 finishes execution at time 15
-Process 1 preempted by process 2 at time 16; Remaining time of Process 1 is 4
-Process 2 starts execution at time 15
-Process 3 missed deadline at time 16
-Process 2 finishes execution at time 19
-Process 2 preempted by process 1 at time 20; Remaining time of Process 2 is 10
-Process 1 starts execution at time 19
-Process 1 finishes execution at time 25
-Process 3 starts execution at time 25
-Process 3 finishes execution at time 29
-Process 3 preempted by process 1 at time 30; Remaining time of Process 3 is 2
-Process 1 starts execution at time 29
-Process 1 finishes execution at time 35
-Process 2 starts execution at time 35
-Process 2 finishes execution at time 38
-Process 3 starts execution at time 38
-Process 3 preempted by process 1 at time 40; Remaining time of Process 3 is 8
-Process 1 finishes execution at time 45
-Process 2 starts execution at time 45
-Process 2 finishes execution at time 48
-Process 3 missed deadline at time 48
-Process 3 starts execution at time 48
-Process 3 preempted by process 1 at time 50; Remaining time of Process 3 is 14
-Process 1 finishes execution at time 55
-Process 3 starts execution at time 55
-Process 3 finishes execution at time 59
-Process 3 preempted by process 1 at time 60; Remaining time of Process 3 is 4
-Process 1 starts execution at time 59
-Process 3 missed deadline at time 64
-Process 1 finishes execution at time 65
-Process 2 starts execution at time 65
-Process 2 finishes execution at time 68
-Process 3 starts execution at time 68
-Process 3 preempted by process 1 at time 70; Remaining time of Process 3 is 10
-Process 1 finishes execution at time 75
-Process 2 starts execution at time 75
-Process 2 finishes execution at time 78
-Process 3 starts execution at time 78
-Process 3 preempted by process 1 at time 80; Remaining time of Process 3 is 16
-Process 3 missed deadline at time 80
-Process 1 finishes execution at time 85
-Process 3 starts execution at time 85
-Process 3 finishes execution at time 89
-Process 3 preempted by process 1 at time 90; Remaining time of Process 3 is 6
-Process 1 starts execution at time 89
-Process 1 finishes execution at time 95
-Process 1 preempted by process 2 at time 96; Remaining time of Process 1 is 4
-Process 2 starts execution at time 95
-Process 3 missed deadline at time 96
-Process 2 finishes execution at time 99
-Process 2 preempted by process 1 at time 100; Remaining time of Process 2 is 5
-Process 1 starts execution at time 99
-Process 1 finishes execution at time 105
-Process 2 starts execution at time 105
-Process 2 finishes execution at time 108
-Process 3 starts execution at time 108
-Process 3 preempted by process 1 at time 110; Remaining time of Process 3 is 2
-Process 3 missed deadline at time 112
-Process 1 finishes execution at time 115
-Process 3 starts execution at time 115
-Process 3 finishes execution at time 119
-Process 3 preempted by process 1 at time 120; Remaining time of Process 3 is 8
-Process 1 starts execution at time 119
-Process 1 finishes execution at time 125
-Process 2 starts execution at time 125
-Process 2 finishes execution at time 128
-Process 3 missed deadline at time 128
-Process 3 starts execution at time 128
-Process 3 preempted by process 1 at time 130; Remaining time of Process 3 is 14
-Process 1 finishes execution at time 135
-Process 2 starts execution at time 135
-Process 2 finishes execution at time 138
-Process 3 starts execution at time 138
-Process 3 preempted by process 1 at time 140; Remaining time of Process 3 is 4
-Process 3 missed deadline at time 144
-Process 1 finishes execution at time 145
-Process 3 starts execution at time 145
-Process 3 finishes execution at time 149
-Process 3 preempted by process 1 at time 150; Remaining time of Process 3 is 10
+Process 2:process time 30, deadline 50, period 50;joined the system at time 0
+Process 3:process time 25, deadline 60, period 60;joined the system at time 0
+Process 1:process time 20, deadline 80, period 80;joined the system at time 0
+Process 2 starts execution at time 0
+Process 2 finishes execution at time 30
+Process 3 starts execution at time 30
+Process 3 preempted by process 2 at time 50; Remaining time of Process 3 is 10
+Process 3 missed deadline at time 60
+Process 2 finishes execution at time 80
+Process 3 starts execution at time 80
+Process 1 missed deadline at time 80
+Process 3 preempted by process 2 at time 100; Remaining time of Process 3 is 20
+Process 3 missed deadline at time 120
+Process 2 finishes execution at time 130
+Process 3 starts execution at time 130
+Process 3 preempted by process 2 at time 150; Remaining time of Process 3 is 30
+Process 1 missed deadline at time 160
+Process 2 finishes execution at time 180
+Process 3 starts execution at time 180
+Process 3 missed deadline at time 180
+Process 3 preempted by process 2 at time 200; Remaining time of Process 3 is 40
+Process 2 finishes execution at time 230
+Process 3 starts execution at time 230
+Process 3 missed deadline at time 240
+Process 1 missed deadline at time 240
+Process 3 preempted by process 2 at time 250; Remaining time of Process 3 is 50
+Process 2 finishes execution at time 280
+Process 3 starts execution at time 280
+Process 3 preempted by process 2 at time 300; Remaining time of Process 3 is 60
+Process 3 missed deadline at time 300
+Process 1 missed deadline at time 320
+Process 2 finishes execution at time 330
+Process 3 starts execution at time 330
+Process 3 preempted by process 2 at time 350; Remaining time of Process 3 is 10
+Process 3 missed deadline at time 360
+Process 2 finishes execution at time 380
+Process 3 starts execution at time 380
+Process 3 preempted by process 2 at time 400; Remaining time of Process 3 is 20
+Process 1 missed deadline at time 400
+Process 3 missed deadline at time 420
+Process 2 finishes execution at time 430
+Process 3 starts execution at time 430
+Process 3 preempted by process 2 at time 450; Remaining time of Process 3 is 30
+Process 2 finishes execution at time 480
+Process 3 starts execution at time 480
+Process 3 missed deadline at time 480
+Process 1 missed deadline at time 480
+Process 3 preempted by process 2 at time 500; Remaining time of Process 3 is 40
+Process 2 finishes execution at time 530
+Process 3 starts execution at time 530
+Process 3 missed deadline at time 540
+Process 3 preempted by process 2 at time 550; Remaining time of Process 3 is 50
+Process 1 missed deadline at time 560
+Process 2 finishes execution at time 580
+Process 3 starts execution at time 580
+Process 3 preempted by process 2 at time 600; Remaining time of Process 3 is 60
+Process 3 missed deadline at time 600
+Process 2 finishes execution at time 630
+Process 3 starts execution at time 630
+Process 1 missed deadline at time 640
+Process 3 preempted by process 2 at time 650; Remaining time of Process 3 is 10
+Process 3 missed deadline at time 660
+Process 2 finishes execution at time 680
+Process 3 starts execution at time 680
+Process 3 preempted by process 2 at time 700; Remaining time of Process 3 is 20
+Process 3 missed deadline at time 720
+Process 1 missed deadline at time 720
+Process 2 finishes execution at time 730
+Process 3 starts execution at time 730
+Process 3 preempted by process 2 at time 750; Remaining time of Process 3 is 30
+Process 2 finishes execution at time 780
+Process 3 starts execution at time 780
+Process 3 missed deadline at time 780
+Process 3 preempted by process 2 at time 800; Remaining time of Process 3 is 40
+Process 1 missed deadline at time 800
+Process 2 finishes execution at time 830
+Process 3 starts execution at time 830
+Process 3 missed deadline at time 840
+Process 3 preempted by process 2 at time 850; Remaining time of Process 3 is 50
+Process 2 finishes execution at time 880
+Process 3 starts execution at time 880
+Process 1 missed deadline at time 880
+Process 3 preempted by process 2 at time 900; Remaining time of Process 3 is 60
+Process 3 missed deadline at time 900
+Process 2 finishes execution at time 930
+Process 3 starts execution at time 930
+Process 3 preempted by process 2 at time 950; Remaining time of Process 3 is 10
+Process 3 missed deadline at time 960
+Process 1 missed deadline at time 960
+Process 2 finishes execution at time 980
+Process 3 starts execution at time 980
+Process 3 preempted by process 2 at time 1000; Remaining time of Process 3 is 20
+Process 3 missed deadline at time 1020
+Process 2 finishes execution at time 1030
+Process 3 starts execution at time 1030
+Process 1 missed deadline at time 1040
+Process 3 preempted by process 2 at time 1050; Remaining time of Process 3 is 30
+Process 2 finishes execution at time 1080
+Process 3 starts execution at time 1080
+Process 3 missed deadline at time 1080
+Process 3 preempted by process 2 at time 1100; Remaining time of Process 3 is 40
+Process 1 missed deadline at time 1120
+Process 2 finishes execution at time 1130
+Process 3 starts execution at time 1130
+Process 3 missed deadline at time 1140
+Process 3 preempted by process 2 at time 1150; Remaining time of Process 3 is 50
+Process 2 finishes execution at time 1180
+Process 3 starts execution at time 1180
+Process 3 preempted by process 2 at time 1200; Remaining time of Process 3 is 60
+Process 3 missed deadline at time 1200
+Process 1 missed deadline at time 1200
+Process 2 finishes execution at time 1230
+Process 3 starts execution at time 1230
+Process 3 preempted by process 2 at time 1250; Remaining time of Process 3 is 10
+Process 3 missed deadline at time 1260
+Process 2 finishes execution at time 1280
+Process 3 starts execution at time 1280
+Process 1 missed deadline at time 1280
+Process 3 preempted by process 2 at time 1300; Remaining time of Process 3 is 20
+Process 3 missed deadline at time 1320
+Process 2 finishes execution at time 1330
+Process 3 starts execution at time 1330
+Process 3 preempted by process 2 at time 1350; Remaining time of Process 3 is 30
+Process 1 missed deadline at time 1360
+Process 2 finishes execution at time 1380
+Process 3 starts execution at time 1380
+Process 3 missed deadline at time 1380
+Process 3 preempted by process 2 at time 1400; Remaining time of Process 3 is 40
+Process 2 finishes execution at time 1430
+Process 3 starts execution at time 1430
+Process 3 missed deadline at time 1440
+Process 1 missed deadline at time 1440
+Process 3 preempted by process 2 at time 1450; Remaining time of Process 3 is 50
+Process 2 finishes execution at time 1480
+Process 3 starts execution at time 1480
+Process 3 preempted by process 2 at time 1500; Remaining time of Process 3 is 60
+Process 3 missed deadline at time 1500
+Process 1 missed deadline at time 1520
+Process 2 finishes execution at time 1530
+Process 3 starts execution at time 1530
+Process 3 preempted by process 2 at time 1550; Remaining time of Process 3 is 10
+Process 3 missed deadline at time 1560
+Process 2 finishes execution at time 1580
+Process 3 starts execution at time 1580
+Process 3 preempted by process 2 at time 1600; Remaining time of Process 3 is 20
+Process 1 missed deadline at time 1600
+Process 3 missed deadline at time 1620
+Process 2 finishes execution at time 1630
+Process 3 starts execution at time 1630
+Process 3 preempted by process 2 at time 1650; Remaining time of Process 3 is 30
+Process 2 finishes execution at time 1680
+Process 3 starts execution at time 1680
+Process 3 missed deadline at time 1680
+Process 1 missed deadline at time 1680
+Process 3 preempted by process 2 at time 1700; Remaining time of Process 3 is 40
+Process 2 finishes execution at time 1730
+Process 3 starts execution at time 1730
+Process 3 missed deadline at time 1740
+Process 3 preempted by process 2 at time 1750; Remaining time of Process 3 is 50
+Process 1 missed deadline at time 1760
+Process 2 finishes execution at time 1780
+Process 3 starts execution at time 1780
+Process 3 preempted by process 2 at time 1800; Remaining time of Process 3 is 60
+Process 3 missed deadline at time 1800
+Process 2 finishes execution at time 1830
+Process 3 starts execution at time 1830
+Process 1 missed deadline at time 1840
+Process 3 preempted by process 2 at time 1850; Remaining time of Process 3 is 10
+Process 3 missed deadline at time 1860
+Process 2 finishes execution at time 1880
+Process 3 starts execution at time 1880
+Process 3 preempted by process 2 at time 1900; Remaining time of Process 3 is 20
+Process 3 missed deadline at time 1920
+Process 1 missed deadline at time 1920
+Process 2 finishes execution at time 1930
+Process 3 starts execution at time 1930
+Process 3 preempted by process 2 at time 1950; Remaining time of Process 3 is 30
+Process 2 finishes execution at time 1980
+Process 3 starts execution at time 1980
+Process 3 missed deadline at time 1980
+Process 1 missed deadline at time 2000
+Process 3 finishes execution at time 2005
+Process 3 starts execution at time 2005
+Process 3 finishes execution at time 2030
+Process 3 starts execution at time 2030
+Process 3 missed deadline at time 2040
+Process 3 finishes execution at time 2055
+Process 3 starts execution at time 2055
+Process 3 finishes execution at time 2080
+Process 3 starts execution at time 2080
+Process 1 missed deadline at time 2080
+Process 3 missed deadline at time 2100
+Process 3 finishes execution at time 2105
+Process 3 starts execution at time 2105
+Process 3 finishes execution at time 2130
+Process 3 starts execution at time 2130
+Process 3 finishes execution at time 2155
+Process 3 starts execution at time 2155
+Process 3 missed deadline at time 2160
+Process 1 missed deadline at time 2160
+Process 3 finishes execution at time 2180
+Process 3 starts execution at time 2180
+Process 3 finishes execution at time 2205
+Process 3 starts execution at time 2205
+Process 3 missed deadline at time 2220
+Process 3 finishes execution at time 2230
+Process 3 starts execution at time 2230
+Process 1 missed deadline at time 2240
+Process 3 finishes execution at time 2255
+Process 3 starts execution at time 2255
+Process 3 finishes execution at time 2280
+Process 3 starts execution at time 2280
+Process 3 missed deadline at time 2280
+Process 3 finishes execution at time 2305
+Process 3 starts execution at time 2305
+Process 1 missed deadline at time 2320
+Process 3 finishes execution at time 2330
+Process 3 starts execution at time 2330
+Process 3 missed deadline at time 2340
+Process 3 finishes execution at time 2355
+Process 3 starts execution at time 2355
+Process 3 finishes execution at time 2380
+Process 3 starts execution at time 2380
+Process 3 missed deadline at time 2400
+Process 1 missed deadline at time 2400
+Process 3 finishes execution at time 2405
+Process 3 starts execution at time 2405
+Process 3 finishes execution at time 2430
+Process 3 starts execution at time 2430
+Process 3 finishes execution at time 2455
+Process 3 starts execution at time 2455
+Process 3 missed deadline at time 2460
+Process 3 finishes execution at time 2480
+Process 3 starts execution at time 2480
+Process 1 missed deadline at time 2480
+Process 3 finishes execution at time 2505
+Process 3 starts execution at time 2505
+Process 3 missed deadline at time 2520
+Process 3 finishes execution at time 2530
+Process 3 starts execution at time 2530
+Process 3 finishes execution at time 2555
+Process 3 starts execution at time 2555
+Process 1 missed deadline at time 2560
+Process 3 finishes execution at time 2580
+Process 3 starts execution at time 2580
+Process 3 missed deadline at time 2580
+Process 3 finishes execution at time 2605
+Process 3 starts execution at time 2605
+Process 3 finishes execution at time 2630
+Process 3 starts execution at time 2630
+Process 3 missed deadline at time 2640
+Process 1 missed deadline at time 2640
+Process 3 finishes execution at time 2655
+Process 3 starts execution at time 2655
+Process 3 finishes execution at time 2680
+Process 3 starts execution at time 2680
+Process 3 missed deadline at time 2700
+Process 3 finishes execution at time 2705
+Process 3 starts execution at time 2705
+Process 1 missed deadline at time 2720
+Process 3 finishes execution at time 2730
+Process 3 starts execution at time 2730
+Process 3 finishes execution at time 2755
+Process 3 starts execution at time 2755
+Process 3 missed deadline at time 2760
+Process 3 finishes execution at time 2780
+Process 3 starts execution at time 2780
+Process 1 missed deadline at time 2800
+Process 3 finishes execution at time 2805
+Process 3 starts execution at time 2805
+Process 3 missed deadline at time 2820
+Process 3 finishes execution at time 2830
+Process 3 starts execution at time 2830
+Process 3 finishes execution at time 2855
+Process 3 starts execution at time 2855
+Process 3 finishes execution at time 2880
+Process 3 starts execution at time 2880
+Process 3 missed deadline at time 2880
+Process 1 missed deadline at time 2880
+Process 3 finishes execution at time 2905
+Process 3 starts execution at time 2905
+Process 3 finishes execution at time 2930
+Process 3 starts execution at time 2930
+Process 3 missed deadline at time 2940
+Process 3 finishes execution at time 2955
+Process 3 starts execution at time 2955
+Process 1 missed deadline at time 2960
+Process 3 finishes execution at time 2980
+Process 3 starts execution at time 2980
+Process 3 missed deadline at time 3000
+Process 3 finishes execution at time 3005
+Process 3 starts execution at time 3005
+Process 3 finishes execution at time 3030
+Process 3 starts execution at time 3030
+Process 1 missed deadline at time 3040
+Process 3 finishes execution at time 3055
+Process 3 starts execution at time 3055
+Process 3 finishes execution at time 3080
+Process 3 starts execution at time 3080
+Process 3 finishes execution at time 3105
+Process 3 starts execution at time 3105
+Process 1 missed deadline at time 3120
+Process 3 finishes execution at time 3130
+Process 3 starts execution at time 3130
+Process 3 finishes execution at time 3155
+Process 3 starts execution at time 3155
+Process 3 finishes execution at time 3180
+Process 3 starts execution at time 3180
+Process 1 missed deadline at time 3200
+Process 3 finishes execution at time 3205
+Process 3 starts execution at time 3205
+Process 3 finishes execution at time 3230
+Process 1 starts execution at time 3230
+Process 1 finishes execution at time 3250
+Process 1 starts execution at time 3250
+Process 1 finishes execution at time 3270
+Process 1 starts execution at time 3270
+Process 1 missed deadline at time 3280
+Process 1 finishes execution at time 3290
+Process 1 starts execution at time 3290
+Process 1 finishes execution at time 3310
+Process 1 starts execution at time 3310
+Process 1 finishes execution at time 3330
+Process 1 starts execution at time 3330
+Process 1 finishes execution at time 3350
+Process 1 starts execution at time 3350
+Process 1 missed deadline at time 3360
+Process 1 finishes execution at time 3370
+Process 1 starts execution at time 3370
+Process 1 finishes execution at time 3390
+Process 1 starts execution at time 3390
+Process 1 finishes execution at time 3410
+Process 1 starts execution at time 3410
+Process 1 finishes execution at time 3430
+Process 1 starts execution at time 3430
+Process 1 missed deadline at time 3440
+Process 1 finishes execution at time 3450
+Process 1 starts execution at time 3450
+Process 1 finishes execution at time 3470
+Process 1 starts execution at time 3470
+Process 1 finishes execution at time 3490
+Process 1 starts execution at time 3490
+Process 1 finishes execution at time 3510
+Process 1 starts execution at time 3510
+Process 1 missed deadline at time 3520
+Process 1 finishes execution at time 3530
+Process 1 starts execution at time 3530
+Process 1 finishes execution at time 3550
+Process 1 starts execution at time 3550
+Process 1 finishes execution at time 3570
+Process 1 starts execution at time 3570
+Process 1 finishes execution at time 3590
+Process 1 starts execution at time 3590
+Process 1 missed deadline at time 3600
+Process 1 finishes execution at time 3610
+Process 1 starts execution at time 3610
+Process 1 finishes execution at time 3630
+Process 1 starts execution at time 3630
+Process 1 finishes execution at time 3650
+Process 1 starts execution at time 3650
+Process 1 finishes execution at time 3670
+Process 1 starts execution at time 3670
+Process 1 missed deadline at time 3680
+Process 1 finishes execution at time 3690
+Process 1 starts execution at time 3690
+Process 1 finishes execution at time 3710
+Process 1 starts execution at time 3710
+Process 1 finishes execution at time 3730
+Process 1 starts execution at time 3730
+Process 1 finishes execution at time 3750
+Process 1 starts execution at time 3750
+Process 1 missed deadline at time 3760
+Process 1 finishes execution at time 3770
+Process 1 starts execution at time 3770
+Process 1 finishes execution at time 3790
+Process 1 starts execution at time 3790
+Process 1 finishes execution at time 3810
+Process 1 starts execution at time 3810
+Process 1 finishes execution at time 3830
+Process 1 starts execution at time 3830
+Process 1 missed deadline at time 3840
+Process 1 finishes execution at time 3850
+Process 1 starts execution at time 3850
+Process 1 finishes execution at time 3870
+Process 1 starts execution at time 3870
+Process 1 finishes execution at time 3890
+Process 1 starts execution at time 3890
+Process 1 finishes execution at time 3910
+Process 1 starts execution at time 3910
+Process 1 missed deadline at time 3920
+Process 1 finishes execution at time 3930
+Process 1 starts execution at time 3930
+Process 1 finishes execution at time 3950
+Process 1 starts execution at time 3950
+Process 1 finishes execution at time 3970
+Process 1 starts execution at time 3970
+Process 1 finishes execution at time 3990
+Process 1 starts execution at time 3990
+Process 1 missed deadline at time 4000
+Process 1 finishes execution at time 4010
+Process 1 starts execution at time 4010
+Process 1 finishes execution at time 4030
+Process 1 starts execution at time 4030
+Process 1 finishes execution at time 4050
+Process 1 starts execution at time 4050
+Process 1 finishes execution at time 4070
+Process 1 starts execution at time 4070
+Process 1 finishes execution at time 4090
+Process 1 starts execution at time 4090
+Process 1 finishes execution at time 4110
+Process 1 starts execution at time 4110
+Process 1 finishes execution at time 4130
+Process 1 starts execution at time 4130
+Process 1 finishes execution at time 4150
+Process 1 starts execution at time 4150
+Process 1 finishes execution at time 4170
+Process 1 starts execution at time 4170
+Process 1 finishes execution at time 4190
+Process 1 starts execution at time 4190
+Process 1 finishes execution at time 4210
+Process 1 starts execution at time 4210
+Process 1 finishes execution at time 4230

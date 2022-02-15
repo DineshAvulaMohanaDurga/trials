@@ -21,6 +21,7 @@ void sort_sched_set_rms(Input_data_t input_data[],Scheduling_set_t sched_set[],i
     return ;
 }
 
+//This function creates/adds the data of the input processes to the scheduling_set
 void create_sched_set_rms(Input_data_t input_data[],Scheduling_set_t sched_set[],int num_processes,int *num_processes_in_queue)
 {
     Input_data_t temp_data[num_processes];
@@ -60,7 +61,6 @@ int main()
     int num_processes = 5;
     int total_num_times=0;
     int max_num_times=0;
-    int context_switch_time=0;
     int total_missed_deadlines=0;
     int num_processes_in_queue=0;
 
@@ -68,7 +68,7 @@ int main()
     FILE *ptr;
     FILE *ptr1;
     FILE *ptr2;
-    ptr=fopen("inp-params.txt","r");
+    ptr=fopen("inp-params1.txt","r");
     ptr1=fopen("RMS-Log.txt","w");
     ptr2=fopen("RMS-stats.txt","w");
     if(ptr==NULL||ptr1==NULL||ptr2==NULL)
@@ -92,11 +92,11 @@ int main()
         }
     }
     
-    Scheduling_set_t sched_set_rms[4*num_processes];
+    Scheduling_set_t sched_set_rms[total_num_times];
     create_sched_set_rms(input_data,sched_set_rms,num_processes,&num_processes_in_queue);
-    sort_sched_set_rms(input_data,sched_set_rms,num_processes,/*max_num_times*/num_processes_in_queue);
+    sort_sched_set_rms(input_data,sched_set_rms,num_processes,num_processes_in_queue);
     
-    run_stimulation(input_data,sched_set_rms,num_processes,/*total_num_times*/num_processes_in_queue,total_num_times,&context_switch_time,ptr1,&sort_sched_set_rms);
+    run_stimulation(input_data,sched_set_rms,num_processes,num_processes_in_queue,total_num_times,ptr1,&sort_sched_set_rms);
 
     for(unsigned i=0;i<num_processes;i++)
     {
@@ -109,6 +109,5 @@ int main()
     {
         fprintf(ptr2,"Process %s: Average waiting time is %d ms\n",input_data[i].process_name,input_data[i].waiting_time/input_data[i].num_times);
     }
-    fprintf(ptr2,"\n The context switch time taken is %d micro seconds\n",context_switch_time);
     return EXIT_SUCCESS;
 }

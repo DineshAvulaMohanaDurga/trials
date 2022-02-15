@@ -29,7 +29,6 @@ int main()
     int total_num_times=0;
     int max_num_times=0;
     int max_deadline=0;
-    int context_switch_time=0;
     int total_missed_deadlines=0;
     int num_processes_in_queue=0;
 
@@ -37,7 +36,7 @@ int main()
     FILE *ptr1;
     FILE *ptr2;
 
-    ptr=fopen("inp-params.txt","r");
+    ptr=fopen("inp-params1.txt","r");
     ptr1=fopen("EDF-Log.txt","w");
     ptr2=fopen("EDF-stats.txt","w");
     if(ptr==NULL)
@@ -59,19 +58,20 @@ int main()
             max_num_times=input_data[i].num_times;
         }
     }
-    Scheduling_set_t sched_set_edf[2*num_processes];
+    Scheduling_set_t sched_set_edf[total_num_times];
     for(unsigned i=0;i<num_processes;i++)
     {
         strcpy(sched_set_edf[i].process_name,input_data[i].process_name);
         sched_set_edf[i].processing_time=input_data[i].processing_time;
         sched_set_edf[i].process_num=i;
         sched_set_edf[i].deadline_time=input_data[i].period;
+        sched_set_edf[i].period=input_data[i].period;
         num_processes_in_queue++;
         input_data[i].next_period_time=input_data[i].period;
     }
     sort_sched_set_edf(input_data,sched_set_edf,num_processes,num_processes_in_queue);
    
-    run_stimulation(input_data,sched_set_edf,num_processes,num_processes_in_queue,total_num_times,&context_switch_time,ptr1,&sort_sched_set_edf);
+    run_stimulation(input_data,sched_set_edf,num_processes,num_processes_in_queue,total_num_times,ptr1,&sort_sched_set_edf);
     for(unsigned i=0;i<num_processes;i++)
     {
         total_missed_deadlines+=input_data[i].num_deadlines_missed;
@@ -83,6 +83,5 @@ int main()
     {
         fprintf(ptr2,"Process %s: Average waiting time is %d ms\n",input_data[i].process_name,input_data[i].waiting_time/input_data[i].num_times);
     }
-    fprintf(ptr2,"\n The context switch time taken is %d micro seconds\n",context_switch_time);
     return EXIT_SUCCESS;
 }

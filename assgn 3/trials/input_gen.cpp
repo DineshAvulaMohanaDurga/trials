@@ -20,11 +20,11 @@ int main()
 
         for(unsigned i=0;i<NUM_FILES;i++)
         {
-            fprintf(ptr[i],"%d\n",NUM_PROC);
-            for(unsigned j=0;j<NUM_PROC;j++)
+            fprintf(ptr[i],"%d\n",k);
+            for(unsigned j=0;j<k;j++)
             {
-                proc_time=rand()%50;
-                fprintf(ptr[i],"%d %d %d %d \n",i,proc_time,proc_time+(rand()%20),NUM_TIMES);
+                proc_time=1+rand()%50;
+                fprintf(ptr[i],"%d %d %d %d \n",j,proc_time,proc_time+1+(rand()%20),NUM_TIMES);
             }
         }
     }
