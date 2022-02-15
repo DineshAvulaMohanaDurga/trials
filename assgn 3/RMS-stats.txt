@@ -1,5 +1,8 @@
-The number of processes entered is 20
-The number of processes that were successfully completed is -500
-The number of processes whose deadlines were missed is 520
-Process 0: Average waiting time is 28.260000 ms
-Process 0: Average waiting time is 29.450001 ms
+The number of processes entered is 30
+The number of processes that were successfully completed is 22
+The number of processes whose deadlines were missed is 8
+Process 1: Average waiting time is 2 ms
+Process 2: Average waiting time is 11 ms
+Process 3: Average waiting time is 12 ms
+
+ The context switch time taken is 0 micro seconds

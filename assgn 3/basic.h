@@ -15,10 +15,13 @@ class Input_data_t
     int period;
     int num_times;
     int processing_time;
-    float waiting_time=0;
-    float prev_end_time=0;
-    int num_deadlines_missed=0;
     char process_name[20];
+    
+    int waiting_time=0;
+    int prev_end_time=0;
+    int next_period_time=0;
+    int num_deadlines_missed=0;
+
 };
 //This class is used to store the order in thich the processes are to be executed
 class Scheduling_set_t
@@ -26,59 +29,144 @@ class Scheduling_set_t
 public:
     int deadline_time;
     int processing_time;
+    int period;
     char process_name[20];
     int process_num;
 };
 
-//this function takes input from the respective order(RMS or EDF) and schedules them
-void run_stimulation(Input_data_t input_data[],Scheduling_set_t sched_set[],int num_processes,int max_deadline,int total_num_times,FILE *ptr)
+void initialise_sched_set(Scheduling_set_t *sched)
+{
+    sched->deadline_time=-1;
+    sched->period=-1;
+    strcpy(sched->process_name,"");
+    sched->process_num=-1;
+    sched->processing_time=-1;
+    return ;
+}
+
+void add_process(Input_data_t input_data[],Scheduling_set_t scheduling_set[],int time,int num_processes,int* num_processes_in_queue,bool *added)
 {
     for(unsigned i=0;i<num_processes;i++)
     {
-        //cout<<"Process"<<input_data[i].process_name<<":process time "<<input_data[i].processing_time<<";Deadline "<<input_data[i].period<<";period "<<input_data[i].period<<";joined the system at time 0"<<endl;
+        if(time==input_data[i].next_period_time)
+        {
+            input_data[i].next_period_time+=input_data[i].period;
+            scheduling_set[*num_processes_in_queue].deadline_time=input_data[i].next_period_time;
+            scheduling_set[*num_processes_in_queue].process_num=i;
+            scheduling_set[*num_processes_in_queue].processing_time=input_data[i].processing_time;
+            scheduling_set[*num_processes_in_queue].period=input_data[i].period;
+            strcpy(scheduling_set[*num_processes_in_queue].process_name,input_data[i].process_name);
+            *num_processes_in_queue=*num_processes_in_queue+1;
+            *added=true;
+        }
+    }
+}
+
+void remove_process(Scheduling_set_t sched_set[],int num_processes_in_queue,int num_in_queue)
+{
+    for(unsigned i=num_in_queue;i<num_processes_in_queue-1;i++)
+    {
+        sched_set[i]=sched_set[i+1];
+    }
+    initialise_sched_set(&sched_set[num_processes_in_queue-1]);
+}
+
+int find_max_deadline(Input_data_t input_data[],int num_processes)
+{
+    int max_deadline=0;
+    for(unsigned i=0;i<num_processes;i++)
+    {
+        if(max_deadline<input_data[i].next_period_time)
+        {
+            max_deadline=input_data[i].next_period_time;
+        }
+    }
+    return max_deadline;
+}
+
+//this function takes input from the respective order(RMS or EDF) and schedules them
+void run_stimulation(Input_data_t input_data[],Scheduling_set_t sched_set[],int num_processes,int tot_num_process_in_queue,int total_num_times,int* context_switch_time,FILE *ptr,void (*sort_algo)(Input_data_t* ,Scheduling_set_t* ,int ,int ))
+{
+    int current_process_num=0;
+    bool added=false;
+    int max_deadline=find_max_deadline(input_data,num_processes);
+    int num_processes_in_queue=tot_num_process_in_queue;
+    int processed_time=0;
+    //*context_switch_time=0;
+    int set_entry_num=0;
+    bool busy=false;
+    bool empty=false;
+ 
+    for(unsigned i=0;i<num_processes;i++)
+    {
         fprintf(ptr,"Process %s:process time %d, deadline %d, period %d;joined the system at time 0\n",input_data[i].process_name,input_data[i].processing_time,input_data[i].period,input_data[i].period);
     }
-    int processed_time=0;
-    int context_switch_time=0;
-    int set_entry_num=0;
-    //bool switch_proc=false;
-    //cout<<"Process"<<sched_set[set_entry_num].process_name<<" starts execution at time 0"<<endl;
-    fprintf(ptr,"Process %s starts execution at time 0\n",input_data[0].process_name);
-    for(int i=0;i<max_deadline;i++)
+    //fprintf(ptr,"Process %s starts execution at time 0\n",input_data[0].process_name);
+    for(int i=0;(i<max_deadline)||(num_processes_in_queue>0);i++)
     {
-        if(processed_time==sched_set[set_entry_num].processing_time)
+        if(num_processes_in_queue==0)
         {
-            //if(!switch_proc)
-            
-            //cout<<"Process"<<sched_set[set_entry_num].process_name<<" finishes execution at time "<<i<<endl;
-            fprintf(ptr,"Process %s finishes execution at time %d\n",sched_set[set_entry_num].process_name,i);
-            input_data[sched_set[set_entry_num].process_num].prev_end_time=i+(context_switch_time*CONTEXT_TIME*0.001);
-            //switch_proc=false;
-            set_entry_num++;
-            processed_time=0;
+            empty=true;
+        }
+        add_process(input_data,sched_set,i,num_processes,&num_processes_in_queue,&added);
+        if(added)
+        {
+            sort_algo(input_data,sched_set,num_processes,num_processes_in_queue);
+            max_deadline=find_max_deadline(input_data,num_processes);
+            if(!empty&&current_process_num!=sched_set[0].process_num)
+            {
+                fprintf(ptr,"Process %s preempted by process %s at time %d; Remaining time of Process %s is %d\n",input_data[current_process_num].process_name,sched_set[0].process_name,i,input_data[current_process_num].process_name,input_data[current_process_num].next_period_time-i);
+                input_data[current_process_num].prev_end_time=i;
+                current_process_num=sched_set[0].process_num;
+                processed_time=0;
+            }
+            added=false;
+            empty=false;
+        }
+        if(!busy&&num_processes_in_queue>0)
+        {
             if(set_entry_num!=total_num_times)
             {
-                //cout<<"Process"<<sched_set[set_entry_num].process_name<<" starts execution at time "<<i<<endl;
-                fprintf(ptr,"Process %s starts execution at time %d\n",sched_set[set_entry_num].process_name,i);
-                input_data[sched_set[set_entry_num].process_num].waiting_time+=(i+(context_switch_time*CONTEXT_TIME*0.001)-input_data[sched_set[set_entry_num].process_num].prev_end_time);
-
-                context_switch_time+=CONTEXT_TIME;
+                fprintf(ptr,"Process %s starts execution at time %d\n",sched_set[0/*set_entry_num*/].process_name,(i==0)?i:i-1);
+                input_data[sched_set[0/*set_entry_num*/].process_num].waiting_time+=(i/*+((*context_switch_time)*CONTEXT_TIME*0.001)*/-input_data[sched_set[0/*set_entry_num*/].process_num].prev_end_time);
+                busy=true;
+                current_process_num=sched_set[0/*set_entry_num*/].process_num;
+                //num_processes_in_queue++;
+                //*context_switch_time+=CONTEXT_TIME;
             }
             else
             {
                 break ;
             }
         }
-        processed_time++;
-        if(i>=sched_set[set_entry_num].deadline_time&&processed_time<sched_set[set_entry_num].processing_time)
+        if(busy&&processed_time==sched_set[0/*set_entry_num*/].processing_time)
         {
-            //cout<<"Process"<<sched_set[set_entry_num].process_name<<" deadline time "<<sched_set[set_entry_num].deadline_time<<" missed"<<endl;
-            fprintf(ptr,"Process %s missed deadline at time %d\n",sched_set[set_entry_num].process_name,sched_set[set_entry_num].deadline_time);
-            input_data[sched_set[set_entry_num].process_num].num_deadlines_missed++;
-            //processed_time=0;
-            //set_entry_num++;
-            //switch_proc=true;
-            //i--;
+            
+            fprintf(ptr,"Process %s finishes execution at time %d\n",sched_set[0/*set_entry_num*/].process_name,i);
+            input_data[sched_set[0/*set_entry_num*/].process_num].prev_end_time=i/*((*context_switch_time)*CONTEXT_TIME*0.001)*/;
+            set_entry_num++;
+            processed_time=0;
+            remove_process(sched_set,num_processes_in_queue,0);
+            num_processes_in_queue--;
+            busy=false;
         }
+        
+        for(unsigned j=0;j<num_processes_in_queue;j++)
+        {
+            if(i==sched_set[j].deadline_time&&(j!=0||processed_time<sched_set[j].processing_time))
+            {
+                fprintf(ptr,"Process %s missed deadline at time %d\n",sched_set[j].process_name,sched_set[j].deadline_time);
+                input_data[sched_set[j].process_num].num_deadlines_missed++;
+
+            }
+        }
+//        if(i>=sched_set[0/*set_entry_num*/].deadline_time&&processed_time<sched_set[0/*set_entry_num*/].processing_time)
+//       {
+//           fprintf(ptr,"Process %s missed deadline at time %d\n",sched_set[0/*set_entry_num*/].process_name,sched_set[0/*set_entry_num*/].deadline_time);
+//            input_data[sched_set[0/*set_entry_num*/].process_num].num_deadlines_missed++;
+//            remove_process(sched_set,num_processes_in_queue,0);
+//        }
+      
+        processed_time++;
     }
 }
